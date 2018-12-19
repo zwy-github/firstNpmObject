@@ -77,4 +77,6 @@ $ npm publish
 ```
 $ npm unpublish 包名字 --force
 ```
-
+- 修改内容后package.json里面的version一定要更新才可以再次发布，执行 $ npm version patch可以自动更新version（npm项目版本管理详情可查看
+https://blog.csdn.net/znyaiw/article/details/80199457
+）
